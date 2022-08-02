@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>basic 01 - 상세페이지</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <style>
+        .t_b {
+            color: #0d6efd;
+        }
+
+        .container {
+            display: flex;
+            width: 1170px;
+            margin: 0 auto;
+            gap: 30px;
+        }
+
+        /* flex를 뺀 container */
+        .inner {
+            width: 1170px;
+            margin: 0 auto;
+        }
+
+        .about {
+            padding: 100px 0;
+            letter-spacing: -0.025em;
+            font-size: 15px;
+        }
+
+        .about img {
+            width: 100%;
+        }
+
+        .about h2 {
+            font-size: 30px;
+            font-weight: 700;
+            text-align: center;
+        }
+
+        .about h2::after {
+            content: "";
+            display: block;
+            width: 30px;
+            height: 3px;
+            background: #adb5bd;
+            margin: 15px auto;
+        }
+
+        .about>p {
+            margin: 0 0 50px 0;
+            font-weight: 300;
+            text-align: center;
+        }
+
+        .about .container {
+            margin: 0 auto 100px auto;
+            justify-content: space-between;
+        }
+
+        .about .tit {
+            font-size: 25px;
+            font-weight: 500;
+            margin: 0 0 50px 0;
+            line-height: 1.45;
+        }
+
+        .about .container p {
+            line-height: 1.45;
+            margin: 0 0 30px 0;
+        }
+
+        /* 임의로 이미지 높이 조절 */
+        .about figure {
+            height: 400px;
+            overflow: hidden;
+        }
+
+        .about h3 {
+            position: relative;
+            font-size: 23px;
+            font-weight: 500;
+            padding: 0 0 0 15px;
+            margin: 0 0 30px 0;
+        }
+
+        .about h3::before {
+            content: "";
+            position: absolute;
+            top: 3px;
+            left: 0;
+            width: 5px;
+            height: 20px;
+            background: #adb5bd;
+        }
+
+        .table {
+            width: 100%;
+            border-top: 3px solid #0d6efd;
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+
+        .table td {
+            padding: 15px 15px;
+            border-left: 1px solid #ddd;
+        }
+
+        .table th {
+            padding: 15px 15px;
+            text-align: left;
+            background: #f7f7f7;
+            font-weight: 400;
+
+        }
+
+        .table tr {
+            border-bottom: 1px solid #ddd;
+        }
+
+        .responsive_table {
+            width: 100%;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="about">
+        <h2><span class="t_b">CEO'S</span> GREETINGS</h2>
+        <p>새로운 미래를 열어가는 뫄뫄회사</p>
+        <div class="container">
+            <div class="des">
+                <p class="tit">
+                    웹 서비스의 <span class="t_b">새로운 미래</span> <br />
+                    <span class="t_b">뫄뫄회사</span>가 만들어 가겠습니다.
+                </p>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+                    Dolor omnis voluptatibus in facere
+                    harum incidunt perspiciatis repellendus. Animi, esse doloribus?
+                </p>
+
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br />
+                    Id error rerum doloremque voluptas. Est,
+                    accusantium?</p>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.<br />
+                    Aut iusto eligendi qui illo rem! Ipsa,
+                    id quasi.
+                </p>
+
+                <p>뫄뫄회사 임직원 일동</p>
+            </div>
+            <figure>
+                <img src="./img/hd01.jpg" alt="">
+            </figure>
+        </div>
+        <div class="inner">
+            <h3>주요현황</h3>
+            <div class="responsive_table">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <th>주 소</th>
+                            <td>부산시 동래구 사직동 1234-56 쌍둥이 돼지국밥 옆</td>
+                            <th>전화번호</th>
+                            <td>051-783-2317</td>
+                        </tr>
+                        <tr>
+                            <th>주 소</th>
+                            <td>부산시 동래구 사직동 1234-56 쌍둥이 돼지국밥 옆</td>
+                            <th>전화번호</th>
+                            <td>051-783-2317</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </section>
+</body>
+
+</html>
