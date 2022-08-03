@@ -13,7 +13,8 @@ font
     box-sizing: border-box;
     font-size: inherit;
     font-weight: inherit;
-    color: #333;
+    color: inherit;
+    /* 값을 #333 적용해놓으면 .cover 밑에 색상 적용이 안됨 */
 }
 
 *::after,

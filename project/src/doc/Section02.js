@@ -10,7 +10,6 @@ const Section02 = () => {
                     <div className="inbox">
                         <img src="./img/hd01.jpg" alt=""></img>
                     </div>
-
                     <div className="cover">
                         <h3>주요사업1</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, temporibus.</p>
@@ -22,11 +21,9 @@ const Section02 = () => {
                     <div className="inbox">
                         <img src="./img/hd02.jpg" alt=""></img>
                     </div>
-
                     <div className="cover">
                         <h3>주요사업2</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, temporibus.</p>
-
                         <a href="">자세히보기</a>
                     </div>
                 </figure>
@@ -34,12 +31,10 @@ const Section02 = () => {
                     <div className="inbox">
                         <img src="./img/hd03.jpg" alt=""></img>
                     </div>
-
                     <div className="cover">
                         <h3>주요사업3</h3>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis dolorum ea dolor commodi modi
                             optio blanditiis, cupiditate mollitia magni at?</p>
-
                         <a href="">자세히보기</a>
                     </div>
                 </figure>
@@ -47,11 +42,9 @@ const Section02 = () => {
                     <div className="inbox">
                         <img src="./img/hd04.jpg" alt=""></img>
                     </div>
-
                     <div className="cover">
                         <h3>주요사업4</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, temporibus.</p>
-
                         <a href="">자세히보기</a>
                     </div>
                 </figure>
