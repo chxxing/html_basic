@@ -1,14 +1,12 @@
-import '../css/section02.css';
-
 const Section02 = () => {
     return (
-        <section className="business">
+        <section className="business basicSection">
             <h2><span className="mainColor">OUR</span> BUSINESS</h2>
             <p>뫄뫄회사의 다양한 사업영역을 소개합니다.</p>
             <div className="container">
                 <figure>
                     <div className="inbox">
-                        <img src="./img/hd01.jpg" alt=""></img>
+                        <img src="./img/hd01.jpg" alt="" />
                     </div>
                     <div className="cover">
                         <h3>주요사업1</h3>
@@ -19,7 +17,7 @@ const Section02 = () => {
                 </figure>
                 <figure>
                     <div className="inbox">
-                        <img src="./img/hd02.jpg" alt=""></img>
+                        <img src="./img/hd02.jpg" alt="" />
                     </div>
                     <div className="cover">
                         <h3>주요사업2</h3>
@@ -29,7 +27,7 @@ const Section02 = () => {
                 </figure>
                 <figure>
                     <div className="inbox">
-                        <img src="./img/hd03.jpg" alt=""></img>
+                        <img src="./img/hd03.jpg" alt="" />
                     </div>
                     <div className="cover">
                         <h3>주요사업3</h3>
@@ -40,7 +38,7 @@ const Section02 = () => {
                 </figure>
                 <figure>
                     <div className="inbox">
-                        <img src="./img/hd04.jpg" alt=""></img>
+                        <img src="./img/hd04.jpg" alt="" />
                     </div>
                     <div className="cover">
                         <h3>주요사업4</h3>

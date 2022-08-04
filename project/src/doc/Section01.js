@@ -1,8 +1,6 @@
-import '../css/section01.css';
-
 const Section01 = () => {
     return (
-        <section className="about">
+        <section className="about basicSection">
             <h2><span className="mainColor">CEO'S</span> GREETINGS</h2>
             <p>새로운 미래를 열어가는 뫄뫄회사</p>
             <div className="container">
@@ -31,7 +29,7 @@ const Section01 = () => {
                     <p>뫄뫄회사 임직원 일동</p>
                 </div>
                 <figure>
-                    <img src="./img/hd01.jpg" alt=""></img>
+                    <img src="./img/hd01.jpg" alt="" />
                 </figure>
             </div>
             <div className="inner">

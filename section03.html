@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>basic 03 - 상세페이지</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/basic.css">
+    <style>
+        .business02 .container {
+            gap: 50px;
+            margin-bottom: 50px;
+        }
+
+        .business02 .container>div {
+            flex: 1;
+        }
+
+        .business02 .left img {
+            width: 100%;
+            height: 450px;
+            object-fit: cover;
+        }
+
+        .business02 .right {
+            display: flex;
+            flex-direction: column;
+            border-top: 2px solid var(--dc);
+            padding: 40px 0 0 0;
+        }
+
+        .business02 .right h3 {
+            font-size: 31px;
+            font-weight: 700;
+            margin: 0 0 20px 0;
+        }
+
+        .business02 .right p {
+            margin: 0 0 30px 0;
+        }
+
+        .business02 .right .bottom {
+            margin: auto 0 0 0;
+            padding: 20px 20px 40px 20px;
+            background: var(--lc);
+            border-top: 1px solid var(--gc);
+            line-height: 1.2;
+        }
+
+        .business02 .inner {
+            padding: 0 15px;
+        }
+
+        .business02 .inner h3 {
+            font-size: 21px;
+            font-weight: 500;
+            margin: 0 0 30px 0;
+        }
+
+        .business02 .inner h3::before {
+            content: "/";
+            color: var(--mc);
+            font-size: 18px;
+            font-weight: 900;
+            margin: 0 10px 0 0;
+            display: inline-block;
+            transform: translateY(-8px) rotate(25deg);
+        }
+
+        .business02 .inner ul {
+            padding: 20px 0;
+            border-top: 1px solid var(--dc);
+            border-bottom: 1px solid var(--dc);
+        }
+
+        .business02 .inner ul>li {
+            float: left;
+            width: 50%;
+            padding: 5px 0;
+        }
+
+        .business02 .inner ul>li::before {
+            content: attr(data-num);
+            display: inline-block;
+            padding: 5px;
+            color: var(--lc);
+            background: var(--dc);
+            border-radius: 13px;
+            margin: 0 15px 0 0;
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="section01.html">section01</a></li>
+            <li><a href="section02.html">section02</a></li>
+            <li><a href="section03.html">section03</a></li>
+        </ul>
+    </nav>
+    <section class="business02 basicSection">
+        <h2><span>OUR</span> BUSINESS</h2>
+        <p>뫄뫄회사의 다양한 사업영역을 소개합니다.</p>
+        <div class="container">
+            <div class="left">
+                <figure>
+                    <img src="./img/hd01.jpg" alt="">
+                </figure>
+            </div>
+            <div class="right">
+                <h3>심플하지만 다 갖춘 뫄뫄회사</h3>
+                <p>홈페이지 제작관련 궁금하신 사항은 언제든지 문의바랍니다.</p>
+
+                <ul class="dotList">
+                    <li>심플하지만 다 갖춘 인덱스</li>
+                    <li>PC + 모바일 반응형 디자인</li>
+                    <li>홈페이지에 꼭 필요한 기본 디자인</li>
+                    <li>제품전용 게시판</li>
+                    <li>부트스트랩이 아닌 CSS기반 반응형</li>
+                </ul>
+
+                <div class="bottom">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores odio saepe velit porro rem
+                    expedita ea, ipsam eos officia amet iste blanditiis, nobis, esse inventore!
+                </div>
+            </div>
+        </div>
+        <div class="inner">
+            <h3>심플하지만 다 갖춘 뫄뫄회사</h3>
+            <ul class="row">
+                <li data-num="01">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, tenetur.
+                </li>
+                <li data-num="02">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, tenetur.</li>
+                <li data-num="03">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, tenetur.</li>
+                <li data-num="04">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, tenetur.</li>
+            </ul>
+        </div>
+    </section>
+</body>
+
+</html>
